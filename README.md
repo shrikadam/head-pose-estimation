@@ -1,15 +1,20 @@
-# head-pose-estimation
+# Head Pose Estimation with MediaPipe
 
-Pip Dependencies: MediaPipe, NumPy and MatPlotLib
+### Simple Python Program
+Pip Dependencies: MediaPipe, OpenCV, NumPy and MatPlotLib
+```console
+cd src
+python3 track_head.py
+```
 
-Lib Dependencies: OpenCV, PyBind11
 
-CMake Build and Run:
+### C++ Program with Pybind
+Lib Dependencies (In addition to above Pip Packages): OpenCV, PyBind11
+```console
 mkdir build && cd build
 cmake .. && make
 ./HeadPoseEstimator
+```
 
-Python Run:
-cd src
-python3 track_head.py
+
 
